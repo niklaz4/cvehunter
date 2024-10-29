@@ -25,23 +25,24 @@
 
     <li><strong>Execute o programa:</strong></li>
     <pre><code>python main.py [opções]</code></pre>
+    
     <p>Alguns exemplos de uso incluem:</p>
-    <ul>
-        <li><strong>Busca básica:</strong></li>
+    <div class="code-example">
+        <p><strong>Busca básica:</strong></p>
         <pre><code>python main.py -k "password"</code></pre>
 
-        <li><strong>Busca por tática específica (ex: Initial Access):</strong></li>
+        <p><strong>Busca por tática específica (ex: Initial Access):</strong></p>
         <pre><code>python main.py -t "TA0001"</code></pre>
 
-        <li><strong>Busca combinada:</strong></li>
+        <p><strong>Busca combinada:</strong></p>
         <pre><code>python main.py -k "credentials" -t "TA0006" -s "ALTO"</code></pre>
 
-        <li><strong>Exportar resultados:</strong></li>
+        <p><strong>Exportar resultados:</strong></p>
         <pre><code>python main.py -k "lateral" -e csv -f "techniques.csv"</code></pre>
 
-        <li><strong>Outro exemplo de uso:</strong></li>
+        <p><strong>Outro exemplo de uso:</strong></p>
         <pre><code>python main.py -k "Phishing" -t "TA0001" -s "ALTO" -e "csv" -f "resultados.csv"</code></pre>
-    </ul>
+    </div>
 </ol>
 
 <h2>Contribuições</h2>
