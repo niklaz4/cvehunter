@@ -25,7 +25,7 @@
 
     <li><strong>Execute o programa:</strong></li>
     <pre><code>python main.py [opções]</code></pre>
-    <p>Alguns dos exemplos disponíveis são:</p>
+    <p>Alguns exemplos de uso incluem:</p>
     <ul>
         <li><strong>Busca básica:</strong></li>
         <pre><code>python main.py -k "password"</code></pre>
@@ -38,12 +38,13 @@
 
         <li><strong>Exportar resultados:</strong></li>
         <pre><code>python main.py -k "lateral" -e csv -f "techniques.csv"</code></pre>
-    </ul>
 
-    <li><strong>Outro exemplo de uso:</strong></li>
-    <pre><code>python main.py -k "Phishing" -t "TA0001" -s "ALTO" -e "csv" -f "resultados.csv"</code></pre>
+        <li><strong>Outro exemplo de uso:</strong></li>
+        <pre><code>python main.py -k "Phishing" -t "TA0001" -s "ALTO" -e "csv" -f "resultados.csv"</code></pre>
+    </ul>
 </ol>
 
 <h2>Contribuições</h2>
 <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests. É um projeto open-source.</p>
+
 
